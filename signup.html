@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Sign Up - PhishEye</title>
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">
+        <img src="images/I2_1411_2_1407.svg" alt="PhishEye Shield">
+      </div>
+      <span>PhishEye</span>
+    </a>
+    <nav class="header-nav">
+      <a href="login.html" class="nav-link">Login / Sign Up</a>
+      <a href="index.html#section-staying-safe" class="nav-link">Staying safe</a>
+      <a href="index.html#section-hero" class="btn-primary header-btn">Check a URL</a>
+    </nav>
+  </div>
+</header>
+
+<section class="auth-section">
+  <div class="container" style="display: flex; justify-content: center;">
+    <div class="auth-card">
+      <div class="auth-header">
+        <h1 class="auth-title">Create an account</h1>
+        <p class="auth-subtitle">Join PhishEye to save your URL scan history.</p>
+      </div>
+
+      <form class="auth-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" id="name" name="name" class="auth-input" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" id="email" name="email" class="auth-input" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" name="password" class="auth-input" placeholder="Create a password" required>
+        </div>
+        <button type="submit" class="btn-primary auth-btn">Sign Up</button>
+      </form>
+
+      <div class="auth-footer">
+        Already have an account? <a href="login.html">Log in</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <div class="logo-mark">
+            <img src="images/I2_1416_2_1407.svg" alt="PhishEye Shield">
+          </div>
+          <span>PhishEye</span>
+        </a>
+        <p class="brand-desc">
+          More context for suspicious links.<br>
+          A more considered next click.
+        </p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#section-hero">Check a URL</a>
+        <a href="#section-staying-safe">Staying safe</a>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 PhishEye. All rights reserved.</p>
+      <p>Stay curious. Stay cautious.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
